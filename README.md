@@ -1,4 +1,4 @@
-Country-App
+Country-data
 
 Table of Contents
 
@@ -18,25 +18,34 @@ Node.js - JavaScript runtime used for the server.
 Express - Web framework for building APIs in Node.js.
 
 #Installation
-Clone the repository:
+1- Clone the repository:
 
 git clone 
-Navigate to the project directory:
 
-cd country-app  
-Install the dependencies:
+2-Navigate to the project directory:
 
-npm install  
+cd country-data
+
+3-Install the dependencies:
+
+cd backend
+npm install 
+
+cd ..
+cd frontend
+npm install
 
 
-Usage
+4-Usage
 
-Start Server:
+4.1-Start Server:
 cd backend
 cd src
-node app.js
+node app.js (open http://localhost:3001 )
+(to see the API in browser  http://localhost:3001/api/countries )
 
-Start the application:
+4.2-Start the application:
+
 cd frontend
 
 npm run dev
